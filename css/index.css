@@ -1,0 +1,119 @@
+@font-face {
+  font-family: whitney-blacksc;
+  src: url(../fonts/whitney-blacksc.otf) format("opentype");
+}
+
+@font-face {
+  font-family: whitney-boldsc;
+  src: url(../fonts/whitney-boldsc.otf) format("opentype");
+}
+
+@font-face {
+  font-family: whitney-medium;
+  src: url(../fonts/whitney-medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: whitney-light;
+  src: url(../fonts/whitney-light.otf) format("opentype");
+}
+
+body {
+  font-family: "Courier New";
+}
+
+.header {
+  font-family: "Courier New";
+  color: #e0e1e2;
+  margin: 0px;
+  margin-bottom: 15px;
+  cursor: context-menu;
+}
+
+.enter-details {
+  font-family: "Courier New";
+  color: #64686f;
+  margin: 0px;
+  margin-bottom: 5px;
+  cursor: context-menu;
+}
+
+.sub-header {
+  font-family: "Courier New";
+  color: #b9bbbe;
+  float: left;
+  margin: 5px 0;
+  cursor: context-menu;
+}
+
+.container {
+  text-align: center;
+  width: 40%;
+  float: center;
+  margin: auto;
+  position: center;
+  background-color: #fff;
+  border-color: #000;
+  border-radius: 8px;
+}
+
+.sub-container {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  border-color: #000;
+  text-align: center;
+
+}
+
+
+
+input[type=email], input[type=password], input[type=text] ,input[type=number], input[type=date], input[type=gender]{
+  font-family: "Courier New";
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: text;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  border-radius: 8px;
+  font-family: "Courier New";
+  background-color: #ff0019;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 25px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  transition: all .15s ease-in-out;
+}
+
+button:hover {
+  background-color: #c20013;
+  transform: scaley(1.05);
+}
+
+body {
+
+}
+
+textarea:focus, input:focus , button:focus , select:focus{
+    outline: none;
+}
+.thing {
+    background-color: #fff;
+
+  background-repeat: no-repeat;
+  /*overflow: hidden;*/
+  background-size: auto;
+  overflow:hidden;
+  padding: none;
+  margin: 0px 0px;
+}
+
